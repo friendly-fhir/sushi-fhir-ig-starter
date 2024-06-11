@@ -5,7 +5,7 @@
   },
   "scripts": {
     "init": "npx sushi init",
-    "build": "npx sushi build .",
+    "build": "npx sushi build . --out build",
     "updatedependencies": "npx update-dependencies ."
   }
 }
