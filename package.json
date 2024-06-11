@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fsh-sushi": "^3.11.0",
+    "gofsh": "^2.3.1"
+  },
+  "scripts": {
+    "init": "npx sushi init",
+    "build": "npx sushi build .",
+    "updatedependencies": "npx update-dependencies ."
+  }
+}
