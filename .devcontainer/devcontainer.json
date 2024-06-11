@@ -1,7 +1,10 @@
 {
   "name": "FSH Dev Container",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install",
+  "postCreateCommand": {
+    "install-npm-dependencies": "npm install",
+    "install-jekyll": "gem install jekyll bundler"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -24,6 +27,8 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-contrib/features/prettier:1": {}
+    "ghcr.io/devcontainers-contrib/features/prettier:1": {},
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/ruby:1": {}
   }
 }
