@@ -6,6 +6,8 @@
   "scripts": {
     "init": "npx sushi init",
     "build": "npx sushi build . --out build",
-    "updatedependencies": "npx update-dependencies ."
+    "publish": "./scripts/publish.sh",
+    "validate": "./scripts/validate.sh",
+    "update-dependencies": "npx update-dependencies ."
   }
 }

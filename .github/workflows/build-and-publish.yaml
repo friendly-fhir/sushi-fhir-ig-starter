@@ -1,0 +1,11 @@
+name: Build and Publish Sushi Project
+
+on:
+  workflow_call:
+
+
+jobs:
+  push-artifacts:
+
+
+  push-docs:
